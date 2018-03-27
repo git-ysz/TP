@@ -1,0 +1,172 @@
+{
+  "fb.html": {
+    "href": "fb.html",
+    "resources": [
+      "css/index.css",
+      "js/zepto.min.js",
+      "js/mui.min.js",
+      "js/index.js",
+      "imgs/map.jpg"
+    ],
+    "refer": [
+      "policy.html",
+      "news.html",
+      "index.html",
+      "service.html",
+      "fb.html"
+    ],
+    "priority": 0
+  },
+  "service.html": {
+    "href": "service.html",
+    "resources": [
+      "css/index.css",
+      "js/zepto.min.js",
+      "js/mui.min.js",
+      "js/mui.previewimage.js",
+      "js/mui.zoom.js",
+      "js/index.js",
+      "imgs/server_img.jpg",
+      "imgs/s02.png",
+      "imgs/s03.png",
+      "imgs/s04.png",
+      "imgs/s05.png"
+    ],
+    "refer": [
+      "policy.html",
+      "news.html",
+      "index.html",
+      "service.html",
+      "fb.html"
+    ],
+    "priority": 0
+  },
+  "pages/newDetails.html": {
+    "href": "pages/newDetails.html",
+    "resources": [
+      "css/index.css",
+      "js/zepto.min.js",
+      "js/mui.min.js",
+      "js/mui.previewimage.js",
+      "js/mui.zoom.js",
+      "js/index.js",
+      "imgs/53a17a0231a36716f5ffae11c16c5b2f.jpg"
+    ],
+    "refer": [
+      "policy.html",
+      "news.html",
+      "index.html",
+      "service.html",
+      "fb.html"
+    ],
+    "priority": 0
+  },
+  "news.html": {
+    "href": "news.html",
+    "resources": [
+      "css/index.css",
+      "css/swiper.min.css",
+      "js/zepto.min.js",
+      "js/mui.min.js",
+      "js/mui.previewimage.js",
+      "js/mui.zoom.js",
+      "js/swiper.min.js",
+      "js/index.js",
+      "imgs/news_img.jpg",
+      "imgs/bannerchj.jpg",
+      "imgs/banner-01.jpg",
+      "imgs/banner-c.jpg",
+      "imgs/201706131008392802.jpg"
+    ],
+    "refer": [
+      "policy.html",
+      "news.html",
+      "index.html",
+      "service.html",
+      "fb.html",
+      "pages/newDetails.html"
+    ],
+    "priority": 0
+  },
+  "pages/policyDetails.html": {
+    "href": "pages/policyDetails.html",
+    "resources": [
+      "css/index.css",
+      "js/zepto.min.js",
+      "js/mui.min.js",
+      "js/mui.previewimage.js",
+      "js/mui.zoom.js",
+      "js/index.js"
+    ],
+    "refer": [
+      "policy.html",
+      "news.html",
+      "index.html",
+      "service.html",
+      "fb.html"
+    ],
+    "priority": 0
+  },
+  "policy.html": {
+    "href": "policy.html",
+    "resources": [
+      "css/index.css",
+      "js/zepto.min.js",
+      "js/mui.min.js",
+      "js/mui.previewimage.js",
+      "js/mui.zoom.js",
+      "js/index.js",
+      "imgs/banner_intr.jpg",
+      "imgs/01rencaijili.jpg",
+      "imgs/03zhishichanquan.jpg",
+      "imgs/02kejichuangxin.png",
+      "imgs/04chanywfuzhi.jpg",
+      "imgs/0xjishugaizao.jpg",
+      "imgs/09shangshirongzi.jpg",
+      "imgs/05pinpiashangbiao.jpg",
+      "imgs/cyfh.jpg",
+      "imgs/10xx.jpg",
+      "imgs/06lingangshuangte.jpg",
+      "imgs/07zhangjiangzhuanxiang.jpg"
+    ],
+    "refer": [
+      "policy.html",
+      "news.html",
+      "index.html",
+      "service.html",
+      "fb.html",
+      "pages/policyDetails.html"
+    ],
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "css/index.css",
+      "css/swiper.min.css",
+      "js/zepto.min.js",
+      "js/mui.min.js",
+      "js/mui.previewimage.js",
+      "js/mui.zoom.js",
+      "js/swiper.min.js",
+      "js/index.js",
+      "imgs/map_img.png",
+      "imgs/pt.jpg",
+      "imgs/ldzx.jpg",
+      "imgs/wdfw.jpg",
+      "imgs/yq-img-list-3.jpg",
+      "imgs/yq-img-list-1.jpg",
+      "imgs/yq-img-list-2.jpg",
+      "imgs/news_img.jpg",
+      "imgs/yq-img1.jpg"
+    ],
+    "refer": [
+      "policy.html",
+      "news.html",
+      "index.html",
+      "service.html",
+      "fb.html"
+    ],
+    "priority": 0
+  }
+}

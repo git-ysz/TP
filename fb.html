@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>联系与反馈</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+	
+	<body>
+		<!--底部导航-->
+		<div class="nav w100">
+			<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item" href="./policy.html">
+					<span class="mui-icon mui-icon-star"></span>
+					<span class="mui-tab-label">园区政策</span>
+				</a>
+				<a class="mui-tab-item" href="./news.html">
+					<span class="mui-icon mui-icon-search"></span>
+					<span class="mui-tab-label">园区要闻</span>
+				</a>
+				<a class="mui-tab-item" href="./index.html">
+					<span class="mui-icon mui-icon-home"></span>
+					<span class="mui-tab-label">首页</span>
+				</a>
+				<a class="mui-tab-item" href="./service.html">
+					<span class="mui-icon mui-icon-chatboxes"></span>
+					<span class="mui-tab-label">服务中心</span>
+				</a>
+				<a class="mui-tab-item mui-active" href="./fb.html">
+					<span class="mui-icon mui-icon-map"></span>
+					<span class="mui-tab-label">联系与反馈</span>
+				</a>
+			</nav>
+		</div>
+		<!--底部导航-->
+		<!--内容区域-->
+		<div class="mui-content feedback">
+			<h2><b class="title-left"></b>信息反馈</h2>
+			<form class="mui-input-group">
+				<div class="mui-input-row">
+					<label>联系方式</label>
+					<input type="text" class="mui-input-clear" placeholder="请输入您的联系方式">
+				</div>
+				<div class="mui-input-row">
+					<label>问题与建议</label>
+					<textarea rows="2" placeholder="请描述您的问题和建议"></textarea>
+				</div>
+				<div class="mui-input-row pd-b1 pd-l1 pd-r1 pd-t1">
+					<button style="width: 100%;" type="button" class="mui-btn mui-btn-blue mui-btn-outlined" id="confirmBtn">提交</button>
+				</div>
+			</form>
+			<h2><b class="title-left"></b>联系我们</h2>
+			<a class="map" style="width: 100%;" href="https://j.map.baidu.com/Y_HLO">
+				<img class="w100" src="imgs/map.jpg"/>
+			</a>
+			<div class="tel">
+				<h2>招商部</h2>
+				<span>电话：</span><a href="tel://02138298686">021-38298686</a><br />
+				<span>传真：021-38298686</span><br />
+				<span>邮箱：xxxxxxx@xxx.com</span><br />
+				<span>邮编：201203</span><br />
+				<span>地址：上海奉贤区金海公路5885号6号楼</span><br />
+			</div>
+			<div class="tel">
+				<h2>管理部</h2>
+				<span>电话：</span><a href="tel://02138298686">021-38298686</a><br />
+				<span>传真：021-38298686</span><br />
+				<span>邮箱：xxxxxxx@xxx.com</span><br />
+				<span>邮编：201203</span><br />
+				<span>地址：上海奉贤区金海公路5885号6号楼</span><br />
+			</div>
+			<div class="tel">
+				<h2>服务部</h2>
+				<span>电话：</span><a href="tel://02138298686">021-38298686</a><br />
+				<span>传真：021-38298686</span><br />
+				<span>邮箱：xxxxxxx@xxx.com</span><br />
+				<span>邮编：201203</span><br />
+				<span>地址：上海奉贤区金海公路5885号6号楼</span><br />
+			</div>
+		</div>
+		<!--内容区域-->
+		<!--footer start-->
+		<address class="mui-text-center w100 fs1rem">
+			<span>Copyright © 2014. 版权所有©上海市漕河泾南桥园区</span>
+		</address>
+		<div class="nav_footer"></div>
+		<!--footer end-->
+
+		<script src="js/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function() {
+				
+				$('#confirmBtn').on('tap',function(){
+					mui.confirm(' 确认提交 ？','提示框',['取消','确认'],function (e) {
+						// e.index
+						//console.log(e.index)
+					},'div')
+				})
+				
+			})
+		</script>
+	</body>
+
+</html>
