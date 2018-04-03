@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<meta content="email=no" name="format-detection">
+		<meta name="description" content="REM实例" />
+		<meta name="keywords" content="" />
+		<meta content="caibaojian" name="author" />
+		<title>REM实例</title>
+		<link rel="stylesheet" href="./style/reset.css" data-notice="初始化样式">
+		<script src="js/jquery-2.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<!--必须引入，移动端rem布局-->
+		<script src="js/remreset.js" type="text/javascript" charset="utf-8"></script>
+
+		<!--fastclick组件，必须添加，否则移动端会存在300ms的点击延迟-->
+		<script src="js/fastclick.js" type="application/javascript"></script>
+		<script type="application/javascript">
+			window.addEventListener('load', function() {
+				new FastClick(document.body);
+			}, false);
+		</script>
+		
+		<style>
+			/*测试用的*/
+			.demo {
+				width: 7.5rem;
+				height: 55px;
+				background: #ccc;
+				font-size:12px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="demo">你好</div>
+	</body>
+
+</html>
